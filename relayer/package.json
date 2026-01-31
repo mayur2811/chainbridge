@@ -1,0 +1,25 @@
+{
+  "name": "chainbridge-relayer",
+  "version": "1.0.0",
+  "description": "Relayer service for ChainBridge cross-chain token bridge",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc -w"
+  },
+  "keywords": ["bridge", "cross-chain", "relayer", "ethereum", "web3"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.9.0",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
